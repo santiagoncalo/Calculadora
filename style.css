@@ -1,0 +1,125 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(320deg, rgba(2,0,36,1) 0%, rgba(130,68,152,1) 31%, rgba(77,126,194,1) 87%, rgba(0,212,255,1) 100%); 
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+
+}
+
+.titulo{
+    text-align: center;
+    color: #232323;
+}
+
+.titulo:hover{
+    color: purple;
+    text-decoration: none;
+}
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgb(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.botões-coluna{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calcular-botão{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px; 
+}
+
+.botões-coluna{
+    padding: 5px;
+}
+
+
+.calcular-botão:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255,255,255,0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: white;
+    background: purple; 
+}
+
+.calcular-botão:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+.calcular-botão:hover{
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.calcular-botão:active{
+    background-color: purple;
+}
+
+.C{
+    flex-basis: 47%;
+}
+
+.zero{
+    flex-basis: 73%;
+}
+
+
+
